@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Home Page</h1>
+    <main role="main">
+        <div class="jumbotron">
+          <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome, to my blog. Here we will be talking all about Computer Science. Basics, framework, ML and other Data Science Stuffs and more.</p>
+            <p>Go visit my another blog:<a href="https://prratsblog.herokuapp.com/"> prratsblog.herokuapp.com </a> </p>
+            <p>
+              <a class="btn btn-primary" href="/posts" role="button">View Posts >></a>
+            </p>
+          </div>
+        </div>
+      </main>
+{% endblock %}
